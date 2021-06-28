@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@types/source-map": "^0.5.2",
+    "axios": "^0.21.1"
+  }
+}
