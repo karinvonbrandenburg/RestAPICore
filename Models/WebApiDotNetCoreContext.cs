@@ -26,9 +26,9 @@ namespace WebApiDotNetCore.Models
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
             //options
-            //.UseSqlServer(@"Data Source=rjo-eqx-whm01;Initial Catalog=WEBAPI; Integrated Security=True"); // Data Source=Macoratti;Initial Catalog=Northwind;Integrated Security=True
+            //.UseSqlServer(@"Data Source=whm01;Initial Catalog=WEBAPI; Integrated Security=True"); 
             options
-            .UseSqlServer("WebAPIDatabase"); // Data Source=Macoratti;Initial Catalog=Northwind;Integrated Security=True
+            .UseSqlServer("WebAPIDatabase"); 
         }
 
 
